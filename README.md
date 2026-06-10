@@ -19,10 +19,6 @@ A modern, responsive restaurant ordering web application built with vanilla HTML
 └── README.md       # This file
 ```
 
-## Getting Started
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Browse the menu, add items to cart, and customize your order
 
 ## Technologies Used
 - HTML5
