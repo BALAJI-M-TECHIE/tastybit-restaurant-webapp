@@ -10,6 +10,9 @@ A modern, responsive restaurant ordering web application built with vanilla HTML
 - ⭐ Customer reviews section
 - 📞 Contact information
 
+  <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/c3916c8e-e1da-4b4d-9d32-dd603fbd05b7" />
+
+
 ## Project Structure
 ```
 ├── index.html      # Main HTML file
