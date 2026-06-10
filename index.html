@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBite Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="TastyBite home">
+            <span class="logo">TastyBite</span>
+           
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+            <span class="burger"></span>
+        </button>
+        <nav id="primary-navigation" class="navbar" aria-label="Primary navigation">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="cartToggle" class="cart-toggle" aria-label="Open cart drawer">
+            <span class="icon">🛒</span>
+            <span>Cart</span>
+            <span id="cartCount" class="cart-count" aria-live="polite">0</span>
+        </button>
+    </div>
+</header>
+<main>
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid animate-on-scroll">
+            <div class="hero-copy">
+                <span class="eyebrow">Local kitchen · Fresh ingredients · Fast service</span>
+                <h1 id="hero-heading">A flavorful dining experience for every appetite.</h1>
+                <p class="hero-copy-text">Savor crave-worthy meals made with seasonal produce, premium proteins, and bold flavors. Add items to your cart, customize toppings, and enjoy a polished ordering experience.</p>
+                <div class="hero-actions">
+                    <button id="orderBtn" class="btn primary">Order Now</button>
+                    <a href="#menu" class="btn secondary">Browse Menu</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <strong>120+</strong>
+                        <span>Five-star reviews</span>
+                    </div>
+                    <div>
+                        <strong>15 min</strong>
+                        <span>Average delivery</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" aria-hidden="true"></div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+    <div class="container">
+        <div class="menu-header animate-on-scroll">
+            <div>
+                <span class="eyebrow">Featured menu</span>
+                <h2>Popular dishes designed to impress</h2>
+                <p>Search, customize, and add items to your cart without leaving the page.</p>
+            </div>
+          
+        </div>
+    
+       
+        <div class="menu-container" id="menuContainer">
+
+            <article class="card" data-name="Pizza" data-desc="Wood-fired crust with premium toppings" data-price="12.99" data-image="assets/food1.jpg">
+                <img src="assets/food1.jpg" loading="lazy" alt="Wood-fired pizza with fresh toppings">
+                <div class="card-body">
+                    <span class="badge">Best seller</span>
+                    <h3>Pizza</h3>
+                    <p>Wood-fired crust with premium toppings and bubbling cheese.</p>
+                    <div class="card-footer">
+                        <span class="price">$12.99</span>
+                        <button class="card-order">Order</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card" data-name="Burger" data-desc="Juicy beef patty with melted cheese and crisp greens" data-price="10.49" data-image="assets/food2.jpg">
+                <img src="assets/food2.jpg" loading="lazy" alt="Burger with lettuce, tomato, and cheese">
+                <div class="card-body">
+                    <span class="badge">Staff pick</span>
+                    <h3>Burger</h3>
+                    <p>Juicy beef patty with melted cheese, crisp greens, and toasted buns.</p>
+                    <div class="card-footer">
+                        <span class="price">$10.49</span>
+                        <button class="card-order">Order</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card" data-name="Pasta" data-desc="Creamy sauce tossed with fresh herbs and parmesan" data-price="11.29" data-image="assets/food3.jpg">
+                <img src="assets/food3.jpg" loading="lazy" alt="Creamy pasta dish with herbs">
+                <div class="card-body">
+                    <span class="badge">Classic</span>
+                    <h3>Pasta</h3>
+                    <p>Creamy sauce tossed with fresh herbs, parmesan, and sun-ripened tomatoes.</p>
+                    <div class="card-footer">
+                        <span class="price">$11.29</span>
+                        <button class="card-order">Order</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- Customer Reviews -->
+<section id="reviews" class="reviews">
+    <div class="container">
+        <div class="section-header">
+            <h2>Customer Reviews</h2>
+            <p class="section-subtitle">Real feedback from our happy customers</p>
+        </div>
+        <div class="reviews-grid">
+            <article class="review-card">
+                <strong>Priya R.</strong>
+                <div class="stars">★★★★★</div>
+                <p>Delicious food and prompt delivery. Highly recommend the Pizza!</p>
+            </article>
+            <article class="review-card">
+                <strong>Arjun S.</strong>
+                <div class="stars">★★★★☆</div>
+                <p>Great flavor and fresh ingredients — will order again.</p>
+            </article>
+            <article class="review-card">
+                <strong>Neha K.</strong>
+                <div class="stars">★★★★★</div>
+                <p>Excellent presentation and taste. Loved the pasta.</p>
+            </article>
+            <article class="review-card">
+                <strong>Vikram P.</strong>
+                <div class="stars">★★★★☆</div>
+                <p>Fast service and friendly staff. Recommended for family dinners.</p>
+            </article>
+            <article class="review-card">
+                <strong>Simran T.</strong>
+                <div class="stars">★★★★★</div>
+                <p>Perfect spice balance and lovely ambience.</p>
+            </article>
+            <article class="review-card">
+                <strong>Rahul M.</strong>
+                <div class="stars">★★★★★</div>
+                <p>Top-notch experience — food arrived hot and delicious.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="highlights">
+    <div class="container">
+        <h2>Why Choose TastyBite</h2>
+        <div class="feature-grid">
+            <article class="feature-card">
+                <h3>Fresh Ingredients</h3>
+                <p>Daily-selected produce and kitchen-made sauces for every dish.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Quick Service</h3>
+                <p>Warm hospitality and fast service for dine-in or takeaway.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Cozy Atmosphere</h3>
+                <p>A relaxed dining space with vibrant taste and welcoming energy.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        TastyBite is a modern restaurant delivering fresh, hygienic and delicious food.
+        We focus on quality and customer satisfaction.
+    </p>
+</section>
+
+<!-- Business Collaboration / Queries -->
+<section id="collab" class="collab">
+    <div class="container">
+        <div class="section-header">
+            <h2>Business Collaboration / Queries</h2>
+            <p class="section-subtitle">Partner with TastyBite or send business inquiries</p>
+        </div>
+        <form id="collabForm" class="contact-form">
+            <div class="form-row">
+                <input type="text" id="collabName" name="name" placeholder="Your Name" required>
+                <input type="email" id="collabEmail" name="email" placeholder="Your Email" required>
+            </div>
+            <label for="queryType">Query Type</label>
+            <select id="queryType" class="query-select"name="queryType" required>
+                <option>Partnership</option>
+                <option>Feedback</option>
+                <option>Complaint</option>
+                <option>Other</option>
+            </select>
+            <textarea id="collabMessage" name="message" placeholder="Your message" rows="5" required></textarea>
+            <button type="submit" class="btn primary">Send Inquiry</button>
+        </form>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Reach out to us via phone, email or Instagram</p>
+        </div>
+
+        <div class="contact-cards">
+            <a href="tel:+919876543210" class="contact-card">
+                <strong>Phone</strong>
+                <span>+91 63803 99891</span>
+            </a>
+            <a href="mailto:tastybite@gmail.com" class="contact-card">
+                <strong>Email</strong>
+                <span>tastybite@gmail.com</span>
+            </a>
+            <a href="https://instagram.com/tastybite_official" target="_blank" class="contact-card">
+                <strong>Instagram</strong>
+                <span>@tastybite_official</span>
+            </a>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- Full-page Cart View -->
+<div id="cartPage" class="cart-page" hidden>
+    <header class="cart-page-header">
+        <div class="container">
+            <button id="cartPageBack" class="btn-back" aria-label="Back to menu">← Back</button>
+            <h1>Your Cart</h1>
+        </div>
+    </header>
+    <main class="cart-page-main">
+        <div class="container">
+            <div class="cart-page-content">
+                <div class="cart-page-items">
+                    <div id="cartPageItemsList" aria-live="polite"></div>
+                </div>
+                <div class="cart-page-sidebar">
+                    <div class="cart-page-summary">
+                        <h3>Order Summary</h3>
+                        <div class="summary-line">
+                            <span>Subtotal</span>
+                            <strong id="cartPageSubtotal">$0.00</strong>
+                        </div>
+                        <div class="summary-line">
+                            <span>Tax (10%)</span>
+                            <strong id="cartPageTax">$0.00</strong>
+                        </div>
+                        <div class="summary-line summary-total">
+                            <span>Total</span>
+                            <strong id="cartPageTotal">$0.00</strong>
+                        </div>
+                        <button id="cartPageCheckout" class="btn primary" style="width: 100%; margin-top: 20px;">Proceed to Checkout</button>
+                        <button id="cartPageContinue" class="btn secondary" style="width: 100%; margin-top: 12px;">Continue Shopping</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cartPageEmpty" class="cart-page-empty" hidden>
+                <p style="text-align: center; color: #666; font-size: 1.1rem;">Your cart is empty</p>
+                <button id="cartPageEmptyBrowse" class="btn primary" style="margin: 20px auto; display: block;">Start Shopping</button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div id="overlay" class="overlay" hidden></div>
+
+<!-- Order Modal -->
+<div id="orderModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+    <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">×</button>
+        <div class="order-modal-head">
+            <div>
+                <span class="modal-badge">Build your meal</span>
+                <h3 id="orderTitle">Select a dish</h3>
+                <p id="orderDescription">Choose a food item to customize your order.</p>
+            </div>
+            <span id="orderPrice" class="order-price">$0.00</span>
+        </div>
+        <div class="order-main">
+            <div class="order-info">
+                <img id="orderImage" src="assets/food1.jpg" alt="Selected dish">
+                <div class="quantity-control">
+                    <button id="qtyMinus" type="button">−</button>
+                    <input id="orderQuantity" type="number" value="1" min="1" aria-label="Quantity">
+                    <button id="qtyPlus" type="button">+</button>
+                </div>
+            </div>
+            <div class="order-options">
+                <h4>Add toppings</h4>
+                <label><input class="topping-input" type="checkbox" value="1.50"> Extra cheese <span>+$1.50</span></label>
+                <label><input class="topping-input" type="checkbox" value="1.20"> Mushrooms <span>+$1.20</span></label>
+                <label><input class="topping-input" type="checkbox" value="1.00"> Olives <span>+$1.00</span></label>
+                <label><input class="topping-input" type="checkbox" value="0.90"> Jalapeños <span>+$0.90</span></label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <p class="summary-text"><strong>Total:</strong> <span id="orderTotal">$0.00</span></p>
+            <button id="confirmOrder" class="btn primary">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 TastyBite Restaurant | All Rights Reserved</p>
+</footer>
+
+<div id="toastContainer" class="toast-container" aria-live="assertive" aria-atomic="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
