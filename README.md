@@ -37,16 +37,17 @@ TastyBit is a responsive restaurant ordering web application that allows users t
 └── README.md       # This file
 ```
 
+## Technologies Used
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
+</p>
+
+
+## Technologies Used
 ![HTML5](https://img.shields.io/badge/HTML5-orange)
 ![CSS3](https://img.shields.io/badge/CSS3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-
-## Technologies Used
-- HTML5
-- CSS3 (Grid, Flexbox, Custom Properties)
-- JavaScript (ES6+)
-- LocalStorage API
 
 ## Key Learnings
 
