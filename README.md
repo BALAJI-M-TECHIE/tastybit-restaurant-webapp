@@ -1,6 +1,6 @@
 # TastyBit Restaurant Web App
 
-TastyBit is a responsive restaurant ordering web application that allows users to browse menu items, add products to a shopping cart, and manage their orders through an intuitive user interface. The application uses Local Storage to persist cart data and is optimized for desktop, tablet, and mobile devices.
+TastyBit is a responsive restaurant ordering web application that allows users to browse menu items, add food items to a shopping cart, and manage their orders through an intuitive user interface. The application uses Local Storage to persist cart data and is optimized for desktop, tablet, and mobile devices.
 
 ## Features
 - 🍽️ Interactive menu with food items
@@ -9,14 +9,19 @@ TastyBit is a responsive restaurant ordering web application that allows users t
 - 🎨 Modern UI with smooth animations
 - ⭐ Customer reviews section
 - 📞 Contact information
+  
+## Screenshots
 
-[HOME PAGE]
+### Home Page
   <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/c3916c8e-e1da-4b4d-9d32-dd603fbd05b7" />
- [MENU SECTION] 
+  
+### Menu Section 
   <img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/e4dc3a74-50cc-4188-b88e-b21bb2f641d9" />
-  [CART SECTION ]
+  
+### Cart Section
   <img width="1273" height="597" alt="image" src="https://github.com/user-attachments/assets/0814f361-c991-4cbe-9e97-f200358d2c4c" />
-  [CONTACT US SECTION]
+  
+### Contact Us Section
   <img width="888" height="933" alt="image" src="https://github.com/user-attachments/assets/268cc2de-6785-4a85-b212-64f5dc6161f7" />
   
 
@@ -32,6 +37,10 @@ TastyBit is a responsive restaurant ordering web application that allows users t
 └── README.md       # This file
 ```
 
+
+![HTML5](https://img.shields.io/badge/HTML5-orange)
+![CSS3](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
 ## Technologies Used
 - HTML5
