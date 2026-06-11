@@ -44,11 +44,6 @@ TastyBit is a responsive restaurant ordering web application that allows users t
 </p>
 
 
-## Technologies Used
-![HTML5](https://img.shields.io/badge/HTML5-orange)
-![CSS3](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-
 ## Key Learnings
 
 - Responsive web design using Flexbox and CSS Grid
@@ -57,5 +52,4 @@ TastyBit is a responsive restaurant ordering web application that allows users t
 - Building reusable UI components
 - Mobile-first development practices
 
-## License
-MIT License
+
