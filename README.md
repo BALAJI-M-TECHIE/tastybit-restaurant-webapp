@@ -1,6 +1,6 @@
 # TastyBit Restaurant Web App
 
-A modern, responsive restaurant ordering web application built with vanilla HTML, CSS, and JavaScript.
+TastyBit is a responsive restaurant ordering web application that allows users to browse menu items, add products to a shopping cart, and manage their orders through an intuitive user interface. The application uses Local Storage to persist cart data and is optimized for desktop, tablet, and mobile devices.
 
 ## Features
 - 🍽️ Interactive menu with food items
@@ -10,11 +10,15 @@ A modern, responsive restaurant ordering web application built with vanilla HTML
 - ⭐ Customer reviews section
 - 📞 Contact information
 
+[HOME PAGE]
   <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/c3916c8e-e1da-4b4d-9d32-dd603fbd05b7" />
+ [MENU SECTION] 
   <img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/e4dc3a74-50cc-4188-b88e-b21bb2f641d9" />
-  <img width="888" height="933" alt="image" src="https://github.com/user-attachments/assets/268cc2de-6785-4a85-b212-64f5dc6161f7" />
+  [CART SECTION ]
   <img width="1273" height="597" alt="image" src="https://github.com/user-attachments/assets/0814f361-c991-4cbe-9e97-f200358d2c4c" />
-
+  [CONTACT US SECTION]
+  <img width="888" height="933" alt="image" src="https://github.com/user-attachments/assets/268cc2de-6785-4a85-b212-64f5dc6161f7" />
+  
 
 
 
@@ -34,6 +38,14 @@ A modern, responsive restaurant ordering web application built with vanilla HTML
 - CSS3 (Grid, Flexbox, Custom Properties)
 - JavaScript (ES6+)
 - LocalStorage API
+
+## Key Learnings
+
+- Responsive web design using Flexbox and CSS Grid
+- DOM manipulation with JavaScript
+- State management using Local Storage
+- Building reusable UI components
+- Mobile-first development practices
 
 ## License
 MIT License
