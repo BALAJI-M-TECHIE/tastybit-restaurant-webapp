@@ -1,5 +1,11 @@
 # TastyBit Restaurant Web App
+---
 
+🌐  Live: https://tastybit-restaurant.vercel.app/ 
+
+💻Code: https://github.com/BALAJI-M-TECHIE/tastybit-restaurant-webapp.git
+
+---
 TastyBit is a responsive restaurant ordering web application that allows users to browse menu items, add food items to a shopping cart, and manage their orders through an intuitive user interface. The application uses Local Storage to persist cart data and is optimized for desktop, tablet, and mobile devices.
 
 ## Features
